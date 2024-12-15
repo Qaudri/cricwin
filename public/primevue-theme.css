@@ -1,0 +1,8 @@
+/* assets/primevue-theme.css */
+:root {
+  --primary-color: #0BA98F; /* Your custom primary color */
+  /* --primary-color-text: #ffffff; Text color on primary elements */
+  --secondary-color: #E9C21C; /* Your custom secondary color */
+  --text-color: #222222; /* General text color */
+  /* --surface: #f9f9f9; Background surface color */
+}
