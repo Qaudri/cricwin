@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import Lara from '@primevue/themes/lara';
+import Aura from '@primevue/themes/aura';
+import AnimateOnScroll from 'primevue/animateonscroll';
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
@@ -9,18 +10,24 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss'
   ],
 
+  plugins: [
+    '~/plugins/primevue.js'
+  ],
 
   primevue: {
     options: {
       ripple: true,
       theme: {
-        preset: Lara,
+        preset: Aura,
         options: {
           primaryColor: '#0BA98F',
           secondaryColor: '#E9C21C',
-          colorScheme: 'light'
+          colorScheme: 'light',
+          darkModeSelector: true
         }
-      }
-    }
+      },
+
+    },
+
   }
 })
