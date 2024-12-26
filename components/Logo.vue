@@ -1,6 +1,6 @@
 <template>
   <NuxtLink to="/" class="w-full block">
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg v-if="isMounted" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 760.8 401.8" style="enable-background:new 0 0 760.8 401.8;" xml:space="preserve">
     <g>
       <path class="st0" d="M9.1,66.5l49.2-56.5C68.9-2.1,87.7-3.4,99.9,7.2l304,264.3c12.2,10.6,13.5,29.4,2.9,41.6l-49.2,56.5
@@ -99,3 +99,15 @@
 	.st4{fill:#FFA621;}
 	.st5{fill:#000054;}
 </style>
+<script>
+export default {
+  data() {
+    return {
+      isMounted: false,
+    };
+  },
+  mounted() {
+    this.isMounted = true; // Set to true after component mounts
+  },
+};
+</script>

@@ -26,9 +26,10 @@
   font-style: normal; /* Adjust style if needed */
 }
 
-/* body {
-  cursor: url('/favicon.svg'), auto;
-} */
+body {
+  /* cursor: url('/favicon.svg'), auto; */
+  overflow-x: hidden;
+}
 
 #trail-container .trail {
   width: 20px;
