@@ -218,6 +218,8 @@
     <TypographyH2>Need Help? We're Here 24/7</TypographyH2>
     <TypographyP class="lg:w-3/4 mx-auto">Have questions or need assistance? Our team is available 24/7 to help you navigate through the platform options or resolve any issues you might encounter. Contact us via live chat, email, or phone, and we'll be happy to assist you.</TypographyP>
   </Container>
+
+  <Footer />
 </template>
 <script>
   import AOS from 'aos';
