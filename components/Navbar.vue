@@ -23,7 +23,7 @@
             <ButtonsSecondary @clicked="$router.push({path: '/'})">Reviews</ButtonsSecondary>
           </li>
           <li>
-            <ButtonsSecondary @clicked="$router.push({path: '/'})">FAQs</ButtonsSecondary>
+            <ButtonsSecondary @clicked="$router.push({path: '/faqs'})">FAQs</ButtonsSecondary>
           </li>
           <li>
             <ButtonsSecondary @clicked="$router.push({path: '/'})">Blog</ButtonsSecondary>
