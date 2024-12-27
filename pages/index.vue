@@ -99,6 +99,7 @@
     </div>
   </Container>
 
+  <Carousel />
   <Container class="py-24">
     <TypographyH2 class="text-center" color="secondary">Our Top Betting Platforms</TypographyH2>
     <TypographyP class="text-center md:w-3/4 lg:w-2/3 mx-auto">Each platform listed below has been vetted for reliability, security, and the quality of the betting experience it offers. Whether you prefer sports betting, casino games, or live betting, you'll find a platform that matches your preferences.
@@ -106,12 +107,14 @@
 
     <table class="table-auto border-collapse mt-6 w-full overflow-x-scroll">
       <thead>
-        <th>Platform Name</th>
-        <th>User Interface</th>
-        <th>Sports Markets</th>
-        <th>Bonuses</th>
-        <th>Payment Methods</th>
-        <th>Features</th>
+        <tr>
+          <th>Platform Name</th>
+          <th>User Interface</th>
+          <th>Sports Markets</th>
+          <th>Bonuses</th>
+          <th>Payment Methods</th>
+          <th>Features</th>
+        </tr>
       </thead>
       <tbody>
         <tr>
@@ -206,7 +209,7 @@
   <section class="bg-secondary">
     <Container class="py-24 grid lg:grid-cols-2 gap-6 lg:gap-10 items-center">
       <div>
-        <TypographyH2 color="white">Bet Smarter. <Span class="text-primary heading">Bet Safer.</Span> </TypographyH2>
+        <TypographyH2 color="white">Bet Smarter. <span class="text-primary heading">Bet Safer.</span> </TypographyH2>
         <TypographyP color="white" class="mt-2">At Cricwinn, we believe that betting should be enjoyable and stress-free. That’s why we focus on bringing you reliable platforms with excellent customer support, fast transactions, and top-notch security. Whatever your betting preferences are, we’re confident you’ll find a platform that suits your needs.
         </TypographyP>
       </div>

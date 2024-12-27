@@ -14,6 +14,9 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss'
   ],
 
+  css:[
+    '@/assets/css/glide.scss'
+  ],
 
   nitro: {
     prerender: {
