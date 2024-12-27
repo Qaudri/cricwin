@@ -18,16 +18,16 @@
       </div>
 
       <div class="flex md:grid gap-6">
-        <ButtonsSecondary>About Us</ButtonsSecondary>
-        <ButtonsSecondary>How It Works</ButtonsSecondary>
-        <ButtonsSecondary>FAQs</ButtonsSecondary>
-        <ButtonsSecondary>Reviews</ButtonsSecondary>
-        <ButtonsSecondary>Contact Us</ButtonsSecondary>
+        <ButtonsSecondary @clicked="$router.push({path: '/'})">About Us</ButtonsSecondary>
+        <ButtonsSecondary @clicked="$router.push({path: '/'})">How It Works</ButtonsSecondary>
+        <ButtonsSecondary @clicked="$router.push({path: '/'})">FAQs</ButtonsSecondary>
+        <ButtonsSecondary @clicked="$router.push({path: '/'})">Reviews</ButtonsSecondary>
+        <ButtonsSecondary @clicked="$router.push({path: '/'})">Contact Us</ButtonsSecondary>
       </div>
 
       <div class="flex md:grid gap-6 items-center">
-        <ButtonsSecondary>Privacy Policy</ButtonsSecondary>
-        <ButtonsSecondary>Terms and Conditions</ButtonsSecondary>
+        <ButtonsSecondary @clicked="$router.push({path: '/'})" >Privacy Policy</ButtonsSecondary>
+        <ButtonsSecondary @clicked="$router.push({path: '/t_and_c'})">Terms and Conditions</ButtonsSecondary>
 
         <div class="flex gap-4 mt-4">
           <NuxtLink to="/" class="bg-secondary h-10 w-10 grid place-content-center rounded-md">
