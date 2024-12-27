@@ -22,6 +22,9 @@
 </template>
 <script setup>
 import Glide from '@glidejs/glide'
+import '@glidejs/glide/dist/css/glide.core.min.css'
+
+
 import { onMounted, ref } from "vue";
 const config = useRuntimeConfig()
 
@@ -65,16 +68,16 @@ const mountSlider = () => {
     new Glide(marketplace, {
       type: 'carousel',
       focusAt: 'center',
-      autoplay: false,
+      autoplay: true,
       gap: 20,
       peek: 30,
       animationDuration: 1000,
       breakpoints: {
-        600: {
+        800: {
           perView: 1
         },
         1024: {
-          perView: 1
+          perView: 2
         },
         1440: {
           perView: 2

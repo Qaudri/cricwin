@@ -7,15 +7,12 @@ export default defineNuxtConfig({
     head: {
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' },
+        // { rel: 'stylesheet', type: 'stylesheet', href: 'node_modules/@glidejs/glide/dist/css/glide.core.min.css' },
       ],
     },
   },
   modules: [
     '@nuxtjs/tailwindcss'
-  ],
-
-  css:[
-    '@/assets/css/glide.scss'
   ],
 
   nitro: {

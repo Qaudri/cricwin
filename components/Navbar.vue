@@ -17,13 +17,19 @@
           <li>
           </li>
           <li>
-            <ButtonsSecondary @clicked="$router.push({path: '/marketplace/'})">Marketplace</ButtonsSecondary>
+            <ButtonsSecondary @clicked="$router.push({path: '/'})">How It Works</ButtonsSecondary>
           </li>
           <li>
-            <ButtonsSecondary @clicked="$router.push({name: 'auth-login'})">Sign In</ButtonsSecondary>
+            <ButtonsSecondary @clicked="$router.push({path: '/'})">Reviews</ButtonsSecondary>
+          </li>
+          <li>
+            <ButtonsSecondary @clicked="$router.push({path: '/'})">FAQs</ButtonsSecondary>
+          </li>
+          <li>
+            <ButtonsSecondary @clicked="$router.push({path: '/'})">Blog</ButtonsSecondary>
           </li>
           <li >
-            <ButtonsPrimary @clicked="$router.push({name: 'auth-signup'})">Sign Up</ButtonsPrimary>
+            <ButtonsPrimary @clicked="$router.push({name: 'auth-signup'})">Contact Us</ButtonsPrimary>
           </li>
         </ul>
       </nav>

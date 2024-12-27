@@ -8,10 +8,10 @@
           <Logo />
         </div>
         <div class="flex gap-6 justify-center mt-2">
-          <NuxtLink class="block">
+          <NuxtLink  to="/" class="block">
             <img src="/images/google.svg" alt="Download from Play Store" class="w-36" />
           </NuxtLink>
-          <NuxtLink class="block">
+          <NuxtLink to="/" class="block">
             <img src="/images/apple.svg" alt="Download from App Store" class="w-36" />
           </NuxtLink>
         </div>
@@ -30,13 +30,13 @@
         <ButtonsSecondary>Terms and Conditions</ButtonsSecondary>
 
         <div class="flex gap-4 mt-4">
-          <NuxtLink class="bg-secondary h-10 w-10 grid place-content-center rounded-md">
+          <NuxtLink to="/" class="bg-secondary h-10 w-10 grid place-content-center rounded-md">
             <img src="/images/facebook_f.svg" class="w-8 h-8" alt="">
           </NuxtLink>
-          <NuxtLink class="bg-secondary h-10 w-10 grid place-content-center rounded-md">
+          <NuxtLink to="/" class="bg-secondary h-10 w-10 grid place-content-center rounded-md">
             <img src="/images/instagram.svg" class="w-8 h-8" alt="">
           </NuxtLink>
-          <NuxtLink class="bg-secondary h-10 w-10 grid place-content-center rounded-md">
+          <NuxtLink to="/" class="bg-secondary h-10 w-10 grid place-content-center rounded-md">
             <img src="/images/twitter.svg" class="w-8 h-8" alt="">
           </NuxtLink>
         </div>

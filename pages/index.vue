@@ -1,11 +1,24 @@
 <template>
-  <Navbar />
-  <header class="header py-24 grid place-content-center text-center">
+  <Navbar data-aos="fade-down" />
+  <header data-aos="zoom-in" class="header py-24 grid place-content-center text-center">
     <Container>
-      <TypographyH1 class="md:w-3/4 lg:w-[55%] mx-auto" color="white">Your Trusted Guide to Top Betting Platforms</TypographyH1>
-      <TypographyP color="white">Discover, Compare, and Choose the Perfect Platform for Your Betting Journey.</TypographyP>
+      <TypographyH1 
+        data-aos="fade-down"
+        data-aos-delay="500"
+        class="md:w-3/4 lg:w-[55%] mx-auto" color="white">
+        Your Trusted Guide to Top Betting Platforms
+      </TypographyH1>
+      <TypographyP 
+        data-aos="fade-down"
+        data-aos-delay="500" 
+        color="white">
+        Discover, Compare, and Choose the Perfect Platform for Your Betting Journey.
+      </TypographyP>
 
-      <div class="mt-6 mx-auto">
+      <div 
+        data-aos="fade-up"
+        data-aos-delay="500"
+        class="mt-6 mx-auto">
         <TypographyP color="white">Download the app:</TypographyP>
         <div class="flex gap-6 justify-center mt-2">
           <NuxtLink class="block">
@@ -29,7 +42,7 @@
   </header>
 
   <Container class="grid lg:grid-cols-2 py-24 items-center gap-6 lg:gap-10">
-    <div>
+    <div data-aos="fade-up-right">
       <TypographyH2 color="secondary">Welcome to Cricwinn</TypographyH2>
       <TypographyP>Your Gateway to the Best Betting Platforms</TypographyP>
       <hr class="w-20 border-neutral-800" />
@@ -39,19 +52,19 @@
       Explore a world of trusted, high-quality platforms designed to cater to your preferences in terms of user interface, features, sports markets, and more.
       </TypographyP>
     </div>
-    <video src="/intro.mp4" controls></video>
+    <video data-aos="fade-up-left" src="/intro.mp4" controls></video>
   </Container>
 
   <Container class="grid lg:grid-cols-2 py-24 items-center gap-6 lg:gap-10">
-    <img src="/why.webp" class="object-cover hidden lg:block h-full w-full" alt="">
-    <img src="/why.webp" class="object-cover block lg:hidden h-64 w-full" alt="">
+    <img data-aos="fade-right" src="/why.webp" class="object-cover hidden lg:block h-full w-full" alt="">
+    <img data-aos="zoom-in" src="/why.webp" class="object-cover block lg:hidden h-64 w-full" alt="">
     <div class="grid gap-6">
-      <div>
+      <div data-aos="fade-left">
         <TypographyH2 color="primary">Why Choose Cricwinn?</TypographyH2>
         <TypographyP>We offer a professional, user-centric approach that ensures your betting experience is not only seamless but also secure and enjoyable. Here's why thousands of betting enthusiasts trust us:
         </TypographyP>
       </div>
-      <div class="p-5 border rounded-md border-primary">
+      <div data-aos="fade-left" data-aos-delay="200" class="p-5 border rounded-md border-primary">
         <div class="flex gap-4 items-center">
           <img src="/images/platform.svg" class="w-10 h-10" alt="">
           <TypographyH3 color="primary">Tailored Platform Selection</TypographyH3>
@@ -59,7 +72,7 @@
         <TypographyP class="mt-2">Each bettor is unique, which is why we bring you a variety of betting platforms with different user interfaces, betting options, and features. Whether you're looking for an easy-to-navigate interface, advanced features, or a specific sports market, you can select the platform that suits you best.
         </TypographyP>
       </div>
-      <div class="p-5 border rounded-md border-primary">
+      <div data-aos="fade-left" data-aos-delay="200" class="p-5 border rounded-md border-primary">
         <div class="flex gap-4 items-center">
           <img src="/images/support.svg" class="w-10 h-10" alt="">
           <TypographyH3 color="primary">24/7 Dedicated Support</TypographyH3>
@@ -68,7 +81,7 @@
         </TypographyP>
       </div>
     </div>
-    <div class="p-5 border rounded-md border-primary">
+    <div data-aos="fade-right" data-aos-delay="200" class="p-5 border rounded-md border-primary">
       <div class="flex gap-4 items-center">
         <img src="/images/clock.svg" class="w-10 h-10" alt="">
         <TypographyH3 color="primary">Instant Deposits and Withdrawals </TypographyH3>
@@ -76,7 +89,7 @@
       <TypographyP class="mt-2">We understand that issues can arise at any time. That's why our platforms offer round-the-clock support to assist you with any concerns. From account management to resolving transaction queries, our dedicated customer support teams are here for you whenever you need help.
       </TypographyP>
     </div>
-    <div class="p-5 border rounded-md border-primary">
+    <div data-aos="fade-left" data-aos-delay="200" class="p-5 border rounded-md border-primary">
       <div class="flex gap-4 items-center">
         <img src="/images/security.svg" class="w-10 h-10" alt="">
         <TypographyH3 color="primary">Security & Fair Play        </TypographyH3>
@@ -84,7 +97,7 @@
       <TypographyP class="mt-2">Your security is our priority. All the betting sites we recommend are licensed, regulated, and fully compliant with industry standards. Enjoy peace of mind knowing that your personal information, as well as your deposits and withdrawals, are protected with the latest encryption technology.
       </TypographyP>
     </div>
-    <div class="p-5 border rounded-md border-primary">
+    <div data-aos="fade-right" data-aos-delay="200" class="p-5 border rounded-md border-primary">
       <div class="flex gap-4 items-center">
         <img src="/images/payment.svg" class="w-10 h-10" alt="">
         <TypographyH3 color="primary">Wide Range of Payment Methods</TypographyH3>
@@ -92,20 +105,21 @@
       <TypographyP class="mt-2">We understand that everyone has different preferences when it comes to payments. Our recommended platforms support a wide range of payment options, including credit/debit cards, e-wallets, cryptocurrencies, and bank transfers, ensuring you can deposit and withdraw your funds with ease.
       </TypographyP>
     </div>
-    <div>
+    <div data-aos="fade-up" data-aos-delay="500">
       <TypographyH3 color="primary">Explore the Best Betting Platforms</TypographyH3>
       <TypographyP class="mt-2">We believe in providing you with a curated selection of platforms that offer the best user experience, a wide variety of betting options, and top-tier customer service. Here, you can browse through our listed platforms and find the one that suits your betting style.
       </TypographyP>
     </div>
   </Container>
 
-  <Carousel />
+  <Carousel data-aos="slide-left" />
+
   <Container class="py-24">
-    <TypographyH2 class="text-center" color="secondary">Our Top Betting Platforms</TypographyH2>
-    <TypographyP class="text-center md:w-3/4 lg:w-2/3 mx-auto">Each platform listed below has been vetted for reliability, security, and the quality of the betting experience it offers. Whether you prefer sports betting, casino games, or live betting, you'll find a platform that matches your preferences.
+    <TypographyH2 data-aos="fade-down" class="text-center" color="secondary">Our Top Betting Platforms</TypographyH2>
+    <TypographyP data-aos="fade-down" data-aos-delay="100" class="text-center md:w-3/4 lg:w-2/3 mx-auto">Each platform listed below has been vetted for reliability, security, and the quality of the betting experience it offers. Whether you prefer sports betting, casino games, or live betting, you'll find a platform that matches your preferences.
     </TypographyP>
 
-    <table class="table-auto border-collapse mt-6 w-full overflow-x-scroll">
+    <table data-aos="flip-up" class="table-auto border-collapse mt-6 w-full overflow-x-scroll">
       <thead>
         <tr>
           <th>Platform Name</th>
@@ -156,18 +170,18 @@
     </TypographyP>
   </Container>
 
-  <section class="bg-primary">
+  <section data-aos="zoom-in" class="bg-primary">
     <Container class="grid lg:grid-cols-2 py-24 items-center gap-14">
-      <img src="/images/betting.png" alt="">
+      <img data-aos="fade-up-right" data-aos-delay="200" src="/images/betting.png" alt="">
       <div>
-        <TypographyH2 color="secondary">How It Works</TypographyH2>
-        <TypographyP>Getting started with the perfect betting platform is easy. Here's how it works:</TypographyP>
+        <TypographyH2 data-aos="fade-left" data-aos-delay="200" color="secondary">How It Works</TypographyH2>
+        <TypographyP data-aos="fade-left" data-aos-delay="100">Getting started with the perfect betting platform is easy. Here's how it works:</TypographyP>
 
         <div class="flex gap-12 text-secondary mt-6">
           <div class="flex relative justify-center">
-            <div class="bg-secondary w-0.5 h-full -mr-5"></div>
+            <div data-aos="fade-left" class="bg-secondary w-0.5 h-full -mr-5"></div>
             <ul class="flex flex-col gap-6 justify-around h-full w-full">
-              <li class="flex gap-6">
+              <li data-aos="fade-left" data-aos-delay="100" class="flex gap-6">
                 <div class="bg-secondary heading min-w-10 h-10 w-10 rounded-full grid place-content-center text-white text-xl">01</div>
                 <div>
                   <h4 class="heading text-2xl uppercase">Browse Our Selection</h4>
@@ -175,7 +189,7 @@
                   </TypographyP>
                 </div>
               </li>
-              <li class="flex gap-6">
+              <li data-aos="fade-left" data-aos-delay="100" class="flex gap-6">
                 <div class="bg-secondary heading min-w-10 w-10 h-10 rounded-full grid place-content-center text-white text-xl">02</div>
                 <div>
                   <h4 class="heading text-2xl uppercase">Select Your Ideal Platform</h4>
@@ -183,7 +197,7 @@
                   </TypographyP>
                 </div>
               </li>
-              <li class="flex gap-6">
+              <li data-aos="fade-left" data-aos-delay="100" class="flex gap-6">
                 <div class="bg-secondary heading min-w-10 w-10 h-10 rounded-full grid place-content-center text-white text-xl">03</div>
                 <div>
                   <h4 class="heading text-2xl uppercase">Sign Up & Bet</h4>
@@ -191,7 +205,7 @@
                   </TypographyP>
                 </div>
               </li>
-              <li class="flex gap-6">
+              <li data-aos="fade-left" data-aos-delay="100" class="flex gap-6">
                 <div class="bg-secondary heading min-w-10 w-10 h-10 rounded-full grid place-content-center text-white text-xl">04</div>
                 <div>
                   <h4 class="heading text-2xl uppercase">Enjoy Fast & Secure Transactions</h4>
@@ -206,23 +220,23 @@
     </Container>
   </section>
 
-  <section class="bg-secondary">
+  <section data-aos="zoom-in" class="bg-secondary">
     <Container class="py-24 grid lg:grid-cols-2 gap-6 lg:gap-10 items-center">
-      <div>
+      <div  data-aos="fade-up-right" data-aos-delay="200">
         <TypographyH2 color="white">Bet Smarter. <span class="text-primary heading">Bet Safer.</span> </TypographyH2>
-        <TypographyP color="white" class="mt-2">At Cricwinn, we believe that betting should be enjoyable and stress-free. That’s why we focus on bringing you reliable platforms with excellent customer support, fast transactions, and top-notch security. Whatever your betting preferences are, we’re confident you’ll find a platform that suits your needs.
+        <TypographyP color="white" class="mt-2">At Cricwinn, we believe that betting should be enjoyable and stress-free. That's why we focus on bringing you reliable platforms with excellent customer support, fast transactions, and top-notch security. Whatever your betting preferences are, we're confident you'll find a platform that suits your needs.
         </TypographyP>
       </div>
-      <img src="/images/gambling.png" alt="">
+      <img src="/images/gambling.png"  data-aos="fade-up-left" data-aos-delay="200" alt="">
     </Container>
   </section>
 
-  <Container class="py-24 text-center">
+  <Container class="py-24 text-center"  data-aos="fade">
     <TypographyH2>Need Help? We're Here 24/7</TypographyH2>
     <TypographyP class="lg:w-3/4 mx-auto">Have questions or need assistance? Our team is available 24/7 to help you navigate through the platform options or resolve any issues you might encounter. Contact us via live chat, email, or phone, and we'll be happy to assist you.</TypographyP>
   </Container>
 
-  <Footer />
+  <Footer  data-aos="slide-up" />
 </template>
 <script>
   import AOS from 'aos';
