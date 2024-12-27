@@ -1,7 +1,7 @@
 <template>
   <Container class="py-8">
     <div class="w-full h-0.5 bg-neutral-200"></div>
-    <div class="flex-wrap flex gap-6 justify-between mt-8">
+    <div class="flex-wrap flex gap-6 justify-between mt-8 items-start">
 
       <div>
         <div class="w-36">
@@ -17,7 +17,7 @@
         </div>
       </div>
 
-      <div class="flex md:grid gap-6">
+      <div class="flex md:grid gap-4 lg:gap-2">
         <ButtonsSecondary @clicked="$router.push({path: '/'})">About Us</ButtonsSecondary>
         <ButtonsSecondary @clicked="$router.push({path: '/'})">How It Works</ButtonsSecondary>
         <ButtonsSecondary @clicked="$router.push({path: '/'})">FAQs</ButtonsSecondary>
@@ -25,8 +25,8 @@
         <ButtonsSecondary @clicked="$router.push({path: '/'})">Contact Us</ButtonsSecondary>
       </div>
 
-      <div class="flex md:grid gap-6 items-center">
-        <ButtonsSecondary @clicked="$router.push({path: '/'})" >Privacy Policy</ButtonsSecondary>
+      <div class="flex md:grid gap-4 lg:gap-2 items-center">
+        <ButtonsSecondary @clicked="$router.push({path: '/privacy'})" >Privacy Policy</ButtonsSecondary>
         <ButtonsSecondary @clicked="$router.push({path: '/t_and_c'})">Terms and Conditions</ButtonsSecondary>
 
         <div class="flex gap-4 mt-4">
