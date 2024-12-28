@@ -1,9 +1,10 @@
 <template>
-  <NuxtPage />
-  <div id="cursor"></div>
-    <div id="trail-container">
-      <!-- Trail elements will be dynamically generated -->
-    </div>
+  <Navbar  data-aos="fade-down" />
+    <NuxtPage />
+  <Footer   data-aos="fade-up"/>
+
+  <!-- <div id="cursor"></div>
+  <div id="trail-container"></div> -->
 </template>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -53,38 +54,40 @@ body {
 }
 </style>
 
-<!-- <script setup>
+<script setup>
 import { onMounted, onUnmounted } from 'vue';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 onMounted(() => {
-  const cursor = document.getElementById('cursor');
-  const trailContainer = document.getElementById('trail-container');
+  AOS.init();
+  // const cursor = document.getElementById('cursor');
+  // const trailContainer = document.getElementById('trail-container');
 
-  const moveCursor = (e) => {
-    // Move the main cursor
-    cursor.style.left = `${e.pageX}px`;
-    cursor.style.top = `${e.pageY}px`;
+  // const moveCursor = (e) => {
+  //   // Move the main cursor
+  //   cursor.style.left = `${e.pageX}px`;
+  //   cursor.style.top = `${e.pageY}px`;
 
-    // Create a trail element
-    const trail = document.createElement('div');
-    trail.className = 'trail';
-    trail.style.left = `${e.pageX}px`;
-    trail.style.top = `${e.pageY}px`;
+  //   // Create a trail element
+  //   const trail = document.createElement('div');
+  //   trail.className = 'trail';
+  //   trail.style.left = `${e.pageX}px`;
+  //   trail.style.top = `${e.pageY}px`;
 
-    // Add the trail element to the container
-    trailContainer.appendChild(trail);
+  //   // Add the trail element to the container
+  //   trailContainer.appendChild(trail);
 
-    // Remove the trail element after the animation ends
-    trail.addEventListener('animationend', () => {
-      trail.remove();
-    });
-  };
+  //   // Remove the trail element after the animation ends
+  //   trail.addEventListener('animationend', () => {
+  //     trail.remove();
+  //   });
+  // };
 
-  document.addEventListener('mousemove', moveCursor);
+  // document.addEventListener('mousemove', moveCursor);
 
-  // Cleanup the event listener
-  onUnmounted(() => {
-    document.removeEventListener('mousemove', moveCursor);
-  });
+  // // Cleanup the event listener
+  // onUnmounted(() => {
+  //   document.removeEventListener('mousemove', moveCursor);
+  // });
 });
-</script> -->
+</script>

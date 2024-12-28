@@ -1,5 +1,4 @@
 <template>
-  <Navbar data-aos="fade-down" />
   <header data-aos="zoom-in" class="header py-24 grid place-content-center text-center">
     <Container>
       <TypographyH1 
@@ -236,7 +235,6 @@
     <TypographyP class="lg:w-3/4 mx-auto">Have questions or need assistance? Our team is available 24/7 to help you navigate through the platform options or resolve any issues you might encounter. Contact us via live chat, email, or phone, and we'll be happy to assist you.</TypographyP>
   </Container>
 
-  <Footer  data-aos="slide-up" />
 </template>
 <script>
   import AOS from 'aos';

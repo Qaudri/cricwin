@@ -1,5 +1,4 @@
 <template>
-  <Navbar />
   <header class="background py-24">
     <Container>
       <TypographyH1 color="white" class="text-center">
@@ -25,7 +24,6 @@
     </TypographyP>
 
   </Container>
-  <Footer  />
 </template>
 <style>
 .background {
