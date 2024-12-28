@@ -17,16 +17,16 @@
           <li>
           </li>
           <li>
-            <ButtonsSecondary @clicked="$router.push({path: '/'})">How It Works</ButtonsSecondary>
+            <ButtonsSecondary @clicked="$router.push({path: '/how_it_works'})">How It Works</ButtonsSecondary>
           </li>
           <li>
-            <ButtonsSecondary @clicked="$router.push({path: '/'})">Reviews</ButtonsSecondary>
+            <ButtonsSecondary @clicked="$router.push({path: '/reviews'})">Reviews</ButtonsSecondary>
           </li>
           <li>
             <ButtonsSecondary @clicked="$router.push({path: '/faqs'})">FAQs</ButtonsSecondary>
           </li>
           <li>
-            <ButtonsSecondary @clicked="$router.push({path: '/'})">Blog</ButtonsSecondary>
+            <ButtonsSecondary @clicked="$router.push({path: '/blog'})">Blog</ButtonsSecondary>
           </li>
           <li >
             <ButtonsPrimary @clicked="$router.push({name: 'auth-signup'})">Contact Us</ButtonsPrimary>

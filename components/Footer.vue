@@ -18,10 +18,10 @@
       </div>
 
       <div class="flex md:grid gap-4 lg:gap-2">
-        <ButtonsSecondary @clicked="$router.push({path: '/'})">About Us</ButtonsSecondary>
-        <ButtonsSecondary @clicked="$router.push({path: '/'})">How It Works</ButtonsSecondary>
+        <ButtonsSecondary @clicked="$router.push({path: '/about_us'})">About Us</ButtonsSecondary>
+        <ButtonsSecondary @clicked="$router.push({path: '/how_it_works'})">How It Works</ButtonsSecondary>
         <ButtonsSecondary @clicked="$router.push({path: '/faqs'})">FAQs</ButtonsSecondary>
-        <ButtonsSecondary @clicked="$router.push({path: '/'})">Reviews</ButtonsSecondary>
+        <ButtonsSecondary @clicked="$router.push({path: '/reviews'})">Reviews</ButtonsSecondary>
         <ButtonsSecondary @clicked="$router.push({path: '/'})">Contact Us</ButtonsSecondary>
       </div>
 
