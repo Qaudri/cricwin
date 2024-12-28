@@ -1,7 +1,7 @@
 <template>
   <Navbar  data-aos="fade-down" />
     <NuxtPage />
-  <Footer   data-aos="fade-up"/>
+  <Footer/>
 
   <!-- <div id="cursor"></div>
   <div id="trail-container"></div> -->
