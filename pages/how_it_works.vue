@@ -56,8 +56,8 @@
         </div>
       </Container>
     </section>
-    <Container class="py-24 grid lg:grid-cols-2 gap-6 items-center">
-      <div>
+    <Container  class="py-24 grid lg:grid-cols-2 gap-6 items-center">
+      <div data-aos="fade-up-right">
         <TypographyH2>Tips for Success</TypographyH2>
         <ul class="list-inside list-disc">
           <li>Always check for platform bonuses to maximize your betting opportunities.</li>
@@ -65,6 +65,6 @@
           <li>Make sure to read the platform's terms and conditions for better understanding of promotions and wagering requirements.</li>
         </ul>
       </div>
-      <img src="/why.png" alt="">
+      <img data-aos="fade-up-left" data-aos-delay="500" src="/why.png" alt="">
     </Container>
 </template>
