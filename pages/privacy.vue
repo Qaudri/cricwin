@@ -1,13 +1,13 @@
 <template>
-  <header class="background py-24">
+  <header data-aos="zoom-in" class="background py-24">
     <Container>
-      <TypographyH1 color="white" class="text-center">
+      <TypographyH1 data-aos="zoom-in" data-aos-delay="500" color="white" class="text-center">
         Privacy Policy
       </TypographyH1>
     </Container>
 
   </header>
-  <Container class="pt-12">
+  <Container data-aos="fade-right" class="pt-12">
     <TypographyH2>Your Privacy Matters</TypographyH2>
     <TypographyP>At Cricwinn, we take your privacy seriously. Our Privacy Policy explains how we collect, use, and protect your personal information. We ensure that your data is stored securely and only shared with trusted parties where necessary.
       <br />      <br />

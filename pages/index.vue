@@ -236,16 +236,6 @@
   </Container>
 
 </template>
-<script>
-  import AOS from 'aos';
-  import 'aos/dist/aos.css'; 
-
-  export default {
-    mounted(){
-      AOS.init();
-    },
-  }
-</script>
 <style>
 .header {
   background: url('/images/header.avif'), #000054ca;

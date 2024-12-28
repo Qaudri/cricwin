@@ -1,13 +1,13 @@
 <template>
-  <header class="background py-24">
+  <header class="background py-24" data-aos="zoom-in">
     <Container>
-      <TypographyH1 color="white" class="text-center">
+      <TypographyH1 data-aos="zoom-in" data-aos-delay="500" color="white" class="text-center">
         Terms & Conditions
       </TypographyH1>
     </Container>
 
   </header>
-  <Container class="pt-12">
+  <Container data-aos="fade-right" class="pt-12">
     <TypographyH2>Website Terms of Use</TypographyH2>
     <TypographyP>Before using our site and the betting platforms we recommend, please read our full Terms & Conditions. This section outlines the rules for using our website, including:
     </TypographyP>
