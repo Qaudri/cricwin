@@ -29,7 +29,7 @@
             <ButtonsSecondary @clicked="$router.push({path: '/blog'})">Blog</ButtonsSecondary>
           </li>
           <li >
-            <ButtonsPrimary @clicked="$router.push({name: 'auth-signup'})">Contact Us</ButtonsPrimary>
+            <ButtonsPrimary @clicked="$router.push({name: 'contact'})">Contact Us</ButtonsPrimary>
           </li>
         </ul>
       </nav>

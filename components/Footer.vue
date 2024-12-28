@@ -22,7 +22,7 @@
         <ButtonsSecondary @clicked="$router.push({path: '/how_it_works'})">How It Works</ButtonsSecondary>
         <ButtonsSecondary @clicked="$router.push({path: '/faqs'})">FAQs</ButtonsSecondary>
         <ButtonsSecondary @clicked="$router.push({path: '/reviews'})">Reviews</ButtonsSecondary>
-        <ButtonsSecondary @clicked="$router.push({path: '/'})">Contact Us</ButtonsSecondary>
+        <ButtonsSecondary @clicked="$router.push({path: '/contact'})">Contact Us</ButtonsSecondary>
       </div>
 
       <div class="flex md:grid gap-4 lg:gap-2 items-center">
