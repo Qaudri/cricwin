@@ -2,7 +2,13 @@
   <div class="glide_slides mt-5 relative flex items-center">
     <div class="glide__track" data-glide-el="track">
       <div class="glide__slides">
-        <img :src="sport.image" v-for="sport in sports" alt="">
+        <div class="relative" v-for="sport in sports">
+          <img :src="sport.image"  alt="Sports image" class="w-full h-full object-cover max-h-[80vh]">
+          <div class="w-24 lg:w-36 absolute top-3 lg:top-5 right-3 lg:right-5">
+            <Logo disabled  />
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -70,19 +76,9 @@ const mountSlider = () => {
       focusAt: 'center',
       autoplay: true,
       gap: 20,
-      peek: 30,
+      peek: 0,
       animationDuration: 1000,
-      breakpoints: {
-        800: {
-          perView: 1
-        },
-        1024: {
-          perView: 2
-        },
-        1440: {
-          perView: 2
-        },
-      }
+      perView: 1,
     }).mount()
   })
 }
