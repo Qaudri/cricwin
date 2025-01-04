@@ -40,7 +40,7 @@ let locations = []
 const sports = [
   {
     id: 1,
-    image: '/images/carousel/01.jpg'
+    image: '/images/carousel/08.jpeg'
   },
   {
     id: 2,
@@ -66,6 +66,10 @@ const sports = [
     id: 7,
     image: '/images/carousel/07.webp'
   },
+  {
+    id: 8,
+    image: '/images/carousel/01.jpg'
+  },
 ]
 
 const mountSlider = () => {
@@ -77,7 +81,7 @@ const mountSlider = () => {
       autoplay: true,
       gap: 20,
       peek: 0,
-      animationDuration: 1000,
+      animationDuration: 2000,
       perView: 1,
     }).mount()
   })
